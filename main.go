@@ -42,6 +42,8 @@ func main(){
 
 	fmt.Println("Server listening on port 8090")
 
+	fmt.Println("Soy un cambio nuevo ")
+
 	err := http.ListenAndServe(":8090", router)
 	if err != nil {
 		fmt.Println(err.Error())
